@@ -75,7 +75,7 @@ public static class Config
             AllowedGrantTypes = GrantTypes.Code,
             
             // where to redirect to after login
-            RedirectUris = { "https://localhost:7021/signin-oidc" },
+            RedirectUris = { "https://localhost:7021/signin-oidc", "https://oauth.powerbi.com/views/oauthredirect.html" },
 
             // where to redirect to after logout
             PostLogoutRedirectUris = { "https://localhost:7021/signout-callback-oidc" },
